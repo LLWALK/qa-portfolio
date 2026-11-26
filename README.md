@@ -24,3 +24,4 @@ Browser automation scripts written in Python with Playwright.
 Python · Playwright · Git/GitHub
 
 - `price_watch.py` - tracks a product's price over time, saves history to CSV and reports drops/rises. Tested all four outcomes using manipulated test data.
+- `bug_hunter.py` - scans a web page for console errors, failed requests, broken images, missing alt text and duplicated title text. Tuned to filter out false positives like tracking pixels.
